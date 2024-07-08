@@ -1,0 +1,160 @@
+Started by user [8mha:////4Fp2DxEeGke4CvppNgsupQ1jpGcQ3wG29X5Fb5ulcaAHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained youtube.Jenkinsfile from git https://github.com/Jwiliams951/curso_jenkins.git
+[8mha:////4NE6LexT9t1gh5HtqJyQ609jT/BFHIGtGUIOh4/thiv9AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B7REaX21kcQdrc24A4nXDlyBSU/MkFH3Xg/i/cGZ1L2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OHA8H8Zx1NAVeXLbyYIuzvMe+lHoNdqQNvtG34y0UuHAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/jenkins_home/workspace/jenkins02
+[8mha:////4KCf9Ne2ReAqB6wmmV+BSGsX8jMSojjvGKUCYpT/OjDSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4A3XPRIV4hyCF+scf7ZeDFnzMusqfbYVH2QnIMM6JnWNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PWwfyFUIgXKI5JCs7z2zrmFW5wMt0n3a5pZ05bYea4JAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NH2CrHKBq2D8dpm8tPAjHwmbd9rLl1UyBQwfdjq73goAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Jwiliams951/curso_jenkins.git
+ > git init /var/jenkins_home/workspace/jenkins02 # timeout=10
+Fetching upstream changes from https://github.com/Jwiliams951/curso_jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Jwiliams951/curso_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Jwiliams951/curso_jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 472da9ec68de1c1150f9d345cc2061afdeba8a8a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 472da9ec68de1c1150f9d345cc2061afdeba8a8a # timeout=10
+Commit message: "adicionando arquivo file"
+First time build. Skipping changelog.
+[8mha:////4Exh+7+9iTCdl840HcWqXbBBFel8Qica+4ycAXDgPiibAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4H0+J4szzQeZ4tqEqM18AqUMLvC+kIpk4F8JgTeIvS4NAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LV2kj4jGW9ZpwJcsVOaB2EEBiG4UvPGY/YYGI5bzjl/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4K8/iklWhp5e4Nm1egWe/XiA0YOmHMG3kNGY6M78e37eAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4DMUieSVDsjN+1UemTKzFCUmwZXcH+60HgE+UsTKXcBeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4MGyOJJRBs7XpIVd5vJ6mKwX9Qx5Rb31IZt2l0999nxOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Step1)
+[8mha:////4KhnHA9a02aEUsevXYdoyoK4dDDVNmxO5JVuxfTGqcxuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] echo
+step 1
+[8mha:////4Mguxf0MGSsUD01/AWG3wZRimFqzibyl7AdunZqqBxHUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ printenv
+JENKINS_HOME=/var/jenkins_home
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+CI=true
+RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/jenkins02/1/display/redirect?page=changes
+HOSTNAME=c84bbab076e8
+NODE_LABELS=built-in
+GIT_COMMIT=472da9ec68de1c1150f9d345cc2061afdeba8a8a
+SHLVL=0
+HOME=/var/jenkins_home
+HUDSON_COOKIE=90b01767-abd8-42d7-ac4c-5ab255cdd781
+JENKINS_SERVER_COOKIE=durable-da5eaf272db8106c408526abc2661582f0a41b7ea84d8282730fa9b95be68968
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/jenkins02
+REF=/usr/share/jenkins/ref
+NODE_NAME=built-in
+RUN_ARTIFACTS_DISPLAY_URL=http://unconfigured-jenkins-location/job/jenkins02/1/display/redirect?page=artifacts
+STAGE_NAME=Step1
+EXECUTOR_NUMBER=0
+GIT_BRANCH=origin/main
+JENKINS_VERSION=2.387.3
+RUN_TESTS_DISPLAY_URL=http://unconfigured-jenkins-location/job/jenkins02/1/display/redirect?page=tests
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+BUILD_DISPLAY_NAME=#1
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=jenkins02
+PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+BUILD_ID=1
+BUILD_TAG=jenkins-jenkins02-1
+LANG=C.UTF-8
+GIT_URL=https://github.com/Jwiliams951/curso_jenkins.git
+BUILD_NUMBER=1
+JENKINS_NODE_COOKIE=a0a13a58-d90c-4324-b5f8-c499730973d7
+RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/jenkins02/1/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=5d8e9fc3aa4d0de8
+JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/jenkins02/display/redirect
+JOB_NAME=jenkins02
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+JAVA_HOME=/opt/java/openjdk
+PWD=/var/jenkins_home/workspace/jenkins02
+WORKSPACE_TMP=/var/jenkins_home/workspace/jenkins02@tmp
+[8mha:////4KxBO3tAiZEi4AvnGYX71sLEXLBFxuW13Ld17WmwxjcZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4DS/aJDHABDL8mFLO/PRok8yN4bxW+in5ekeJQBgOi0JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4Kb9j/GsMeg0rceR5EBVfbZBIE2xfU2N9dHdAIAcpl70AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4CTiH8gof3LkL6Ir82NQ3q7J78BsgKMLuO6DgKWMRg1jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Step2)
+[8mha:////4LZtiT4eD7EokKsM1lkRruCEMzoSi0D2aesBNcv0ispNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPoAF3l6+AAAA[0m[Pipeline] }
+[8mha:////4PVsXVFfalBaLsaCUyoybGHg+gOoyDHiAkyb1MNjfjkZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] // stage
+[8mha:////4CvObOTEFwopJEvPZIMOP+orBTE2oXfvXJdVFG+ri+g9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4CDdct4MsJKZBFcjmqh+1oXg3O/gO55Ze/WSlniHXW2RAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Step3)
+Stage "Step3" skipped due to earlier failure(s)
+[8mha:////4OI4ZODyGXrsTmvao+jT+eZlunqzUSzObYzAf7FPmnezAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bkv9tw6+AAAA[0m[Pipeline] }
+[8mha:////4BogQ6+Vb50nvD3akTmEiMAhilvTW2SlBmaZX/1GUvgIAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXge7LK+AAAA[0m[Pipeline] // stage
+[8mha:////4KH1EZdhEnYJ3mndgT4KHgnEEjBSUnBt0KaD+0AJLe+CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QGvblyGvgAAAA==[0m[Pipeline] }
+[8mha:////4K0IEk/FPsiKsMbncREK0myENIxAAcjaMJCXfOcweR2lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGcjQc6vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MDLJA9+SSDbFClS+6mwB/3SbLP5u4zo+YjXABHKOp9FAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4GYRprlaHomszEe6jdcDiB+ws6oGT4RAiaKngDp98T1yAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4Ekkp+jXPpiY82Y1wrapAdh+cYpmXHqeyqBH2OAB2+QJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 5a6a4184-fed6-4a3d-8f1f-ddcfc8f5311a
+groovy.lang.MissingPropertyException: No such property: BRANCH for class: groovy.lang.Binding
+	at groovy.lang.Binding.getVariable(Binding.java:63)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onGetProperty(SandboxInterceptor.java:285)
+	at org.kohsuke.groovy.sandbox.impl.Checker$7.call(Checker.java:375)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:379)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:355)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:355)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:355)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.getProperty(SandboxInvoker.java:29)
+	at org.jenkinsci.plugins.workflow.cps.LoggingInvoker.getProperty(LoggingInvoker.java:121)
+	at com.cloudbees.groovy.cps.impl.PropertyAccessBlock.rawGet(PropertyAccessBlock.java:20)
+	at WorkflowScript.run(WorkflowScript:17)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.when.impl.ExpressionConditionalScript.evaluate(ExpressionConditionalScript.groovy:48)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter$WhenEvaluator.evaluateWhen(ModelInterpreter.groovy:856)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.every(CpsDefaultGroovyMethods:2323)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.every(CpsDefaultGroovyMethods:2344)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter$WhenEvaluator.evaluateWhen(ModelInterpreter.groovy:855)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter$WhenEvaluator.evaluateWhen(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter$WhenEvaluator.passedOrNotEvaluated(ModelInterpreter.groovy:846)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:273)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:586)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:585)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:272)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:356)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:355)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:261)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:618)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:617)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:259)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:443)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:442)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:254)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.get(PropertyishBlock.java:73)
+	at com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)
+	at com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.fixName(PropertyishBlock.java:65)
+	at jdk.internal.reflect.GeneratedMethodAccessor131.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:152)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:146)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:146)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:187)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:423)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:331)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:295)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:97)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE

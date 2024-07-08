@@ -1,0 +1,400 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@689.veec561a_dee13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2150.v4cfd8916915c">
+      <stagesUUID>fdbb1761-9b8d-433b-951c-067808f89788</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2150.v4cfd8916915c">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Step1</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">step 1</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">printenv</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <when>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                      <name>expression</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">BRANCH ==~ /(Master|Hotfix)/</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                  </conditions>
+                </when>
+                <name>Step2</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">step 2</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <when>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                      <name>expression</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">BRANCH ==~ /(Release)/</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                  </conditions>
+                </when>
+                <name>Step3</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">step 3</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>fdbb1761-9b8d-433b-951c-067808f89788</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+          <parameters>
+            <parameters>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildParameter>
+                <name>string</name>
+                <args>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                    <key>
+                      <key>name</key>
+                    </key>
+                    <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                      <value class="string">BRANCH</value>
+                    </value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                    <key>
+                      <key>defaultValue</key>
+                    </key>
+                    <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                      <value class="string">Master</value>
+                    </value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                    <key>
+                      <key>description</key>
+                    </key>
+                    <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                      <value class="string">Branch name</value>
+                    </value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKeyValueOrMethodCallPair>
+                </args>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildParameter>
+            </parameters>
+          </parameters>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.6.0">
+              <sha1>472da9ec68de1c1150f9d345cc2061afdeba8a8a</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/Jwiliams951/curso_jenkins.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@427.v4ca_6512e7df1">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/Jwiliams951/curso_jenkins.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3837.v305192405b_c0">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1720458191932</timestamp>
+  <startTime>1720458191983</startTime>
+  <result>FAILURE</result>
+  <duration>106210</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent any
+
+    parameters {
+        string(name: &apos;BRANCH&apos;, defaultValue: &apos;Master&apos;, description: &apos;Branch name&apos;)
+    }
+
+    stages {
+        stage(&apos;Step1&apos;) {         
+            steps {
+                echo &apos;step 1&apos;
+                sh &apos;printenv&apos;
+            }
+        }
+        stage(&apos;Step2&apos;) {
+            when {
+                expression { BRANCH ==~ /(Master|Hotfix)/}
+            }
+            steps {
+                echo &apos;step 2&apos;
+            }
+        }
+        stage(&apos;Step3&apos;) {
+            when {
+                expression { BRANCH ==~ /(Release)/}
+            }            
+            steps {
+                echo &apos;step 3&apos;
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>1196492468</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>6266886917</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>10929878352</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>4768546053</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>4289093218</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set">
+      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.CommonUtils.instantiateDescribable</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageNames.checkout</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.logToTaskListener</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageFailedAndContinued</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageWithTag</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.hasScmContext</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.inStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.isDoCheckout</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.reuseRootAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.subdirectory</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.getDeclarativeAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.hasAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.populateMap</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.rawClosure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Parameters.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Parameters.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.agent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.astUUID</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.environment</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.getEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.hasSatisfiedConditions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.libraries</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.options</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.post</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.tools</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.message</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.stageStatus</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.agent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.environment</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.getEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.getMatrixCellEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.input</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.name</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.options</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.parallel</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.post</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.steps</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.tools</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.when</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StageConditionals.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StageConditionals.beforeAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StageConditionals.beforeInput</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StageConditionals.beforeOptions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StageConditionals.rawClosure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StepsBlock.closure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.DeclarativeStageConditional.cast</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.DeclarativeStageConditional.isInstance</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.impl.ExpressionConditional$DescriptorImpl.instanceFromClosure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.impl.ExpressionConditional.block</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.impl.ExpressionConditional.closureBlock</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.when.impl.ExpressionConditional.getScript</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.hasNext</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.next</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
+    </internalCalls>
+    <sandbox>true</sandbox>
+    <iota>30</iota>
+    <head>1:30</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/Jwiliams951/curso_jenkins.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/jenkins02</workspace>
+      <changelogFile>/var/jenkins_home/jobs/jenkins02/builds/1/changelog13995823106363649809.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>
