@@ -1,18 +1,68 @@
-# Curso de Jenkins
+# Aula 01 - Instalação do Jenkinks
+[Videoaula](https://youtu.be/8iLRsb2gXXY)
 
-O Jenkins principal servidor de automação de código aberto, ele fornece centenas de plug-ins para apoiar a construção, implantação e automatização de qualquer projeto. [https://www.jenkins.io/](https://www.jenkins.io/)
+## Docker run
 
-## PlayList - Youtube
-[https://www.youtube.com/watch?v=8iLRsb2gXXY&list=PLN_FLtIvNW0n6BP4laJlmCAPobIHGfezn](https://www.youtube.com/c/MarceloGomes)
+```
+docker run -d --name=jenkins --rm \
+  -v $(pwd)/jenkins_data:/var/jenkins_home/  \
+  -p 8080:8080 \
+  -p 50000:50000 \
+  jenkins/jenkins:2.319.1-lts-jdk11
+```
 
-## Aulas
 
-### 01 - Instalação
-- [Repositório](01_Instalacao/README.md)
-- [Videoaula](https://youtu.be/8iLRsb2gXXY)
+Para ver a senha inicial do Jenkins podemos fazer de qualquer uma das duas formas a seguir:
 
-### 02 - Instegração com o Github
-- [Repositório](02_integracao_github/README.md)
-- [Videoaula](https://youtu.be/Q3OUjKnjR28)
+- Para pegar a senha olhando os logs
 
-# curso_jenkins02
+```
+docker logs jenkins
+```
+
+- Para pegar a senha olhando o conteúdo do arquivo initialAdminPassword
+
+```
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+
+## Docker-compose
+
+docker-compose.yml
+```
+version: '3.7'
+services:
+ jenkins:
+   image: jenkins/jenkins:2.319.1-lts-jdk11
+   ports:
+   - "8080:8080"
+   - "50000:50000" 
+   volumes:
+   - ./jenkins_data:/var/jenkins_home
+```
+
+Para iniciar
+```
+docker-compose up -d
+```
+
+Para ver a senha inicial do Jenkins podemos fazer de qualquer uma das duas formas a seguir:
+
+- Para pegar a senha olhando os logs
+
+```
+docker-compose logs -f  jenkins
+```
+
+- Para pegar a senha olhando o conteúdo do arquivo initialAdminPassword
+
+```
+docker-compose exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+
+## Pipeline de teste
+```
+echo "Hello Jenkins"
+```
