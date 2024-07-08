@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   jenkins:
-    image: jenkins/jenkins:2.387.3-lts-jdk11
+    image: jenkins/jenkins:lts-jdk11
     ports:
       - "8080:8080"
       - "50000:50000"
