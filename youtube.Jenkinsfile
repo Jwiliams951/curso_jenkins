@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'BRANCH', defaultValue: 'Main', description: 'Branch name')
+        string(name: 'BRANCH', defaultValue: 'main', description: 'Branch name')
     }
 
     stages {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Step2') {
             when {
-                expression { params.BRANCH ==~ /(Main|Hotfix)/ }
+                expression { params.BRANCH ==~ /(main|Hotfix)/ }
             }
             steps {
                 echo 'step 2'
